@@ -1,5 +1,14 @@
-*{
+ .card{
     border: 1px solid green;
-    width: 100%;
-    align-items: center;
-}
+    border-width: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 75vh;
+        margin: 0;
+    }
+    img{
+        width:250px;
+    }
+
