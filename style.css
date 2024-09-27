@@ -2,11 +2,18 @@
     border: 1px solid green;
     border-width: 5px;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 75vh;
+       height: 50vh;
+        flex-direction: row;
         margin: 0;
+        align-items: center;
+        justify-content: flex-start;       
+    }
+    .card-body{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 27px;
     }
     img{
         width:250px;
